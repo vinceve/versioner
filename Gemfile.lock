@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    git-versioner (0.0.1)
+    git_versioner (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -20,5 +20,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  git-versioner!
+  git_versioner!
   rspec (= 2.14.1)

@@ -1,12 +1,12 @@
 require 'spec_helper'
 
-describe Versioner do
+describe GitVersioner do
 
   context 'test method' do
 
     context 'hello' do
       it 'says hello world' do
-        Versioner.hello.should eq 'hello world'
+        GitVersioner.hello.should eq 'hello world'
       end
     end
 
