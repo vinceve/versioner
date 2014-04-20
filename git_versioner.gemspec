@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Vince Verberckt"]
   s.email       = 'vincev772@hotmail.com'
   s.files = Dir["README.md","Gemfile","Rakefile", "spec/*", "lib/**/*"]
-  s.executables   = ["git_version"]
+  s.executables   = ["git_version", "git-version"]
   s.license       = 'MIT'
 
   s.add_development_dependency 'rspec', '2.14.1'
