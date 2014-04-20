@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'versioner'
+  s.name        = 'git-versioner'
   s.version     = '0.0.1'
   s.date        = '2014-04-20'
   s.summary     = "A git versioning tool to version your applications."
@@ -8,4 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'vincev772@hotmail.com'
   s.files       = ["lib/versioner.rb"]
   s.license       = 'MIT'
+
+  s.add_development_dependency 'rspec', '2.14.1'
 end
