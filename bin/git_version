@@ -2,4 +2,4 @@
 
 require 'git_versioner'
 
-GitVersioner.hello
+puts GitVersioner.hello

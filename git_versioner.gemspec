@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "A git versioning tool to version your applications."
   s.authors     = ["Vince Verberckt"]
   s.email       = 'vincev772@hotmail.com'
-  s.require_paths = ["lib"]
+  s.files = Dir["README.md","Gemfile","Rakefile", "spec/*", "lib/**/*"]
   s.executables   = ["git_version"]
   s.license       = 'MIT'
 
