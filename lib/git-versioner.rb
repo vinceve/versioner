@@ -1,4 +1,4 @@
-class Versioner
+class GitVersioner
 
   def self.hello
     "hello world"

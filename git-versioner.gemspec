@@ -6,7 +6,8 @@ Gem::Specification.new do |s|
   s.description = "A git versioning tool to version your applications."
   s.authors     = ["Vince Verberckt"]
   s.email       = 'vincev772@hotmail.com'
-  s.files       = ["lib/versioner.rb"]
+  s.require_paths = ["lib"]
+  s.executables   = ["git-version"]
   s.license       = 'MIT'
 
   s.add_development_dependency 'rspec', '2.14.1'
